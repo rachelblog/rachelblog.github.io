@@ -6,9 +6,9 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Clean &mdash; A free HTML5 Template by FREEHTML5.CO</title>
+	<title>Rachel Owens &mdash; Promoting Art Accessibility</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="description" content="Student blog" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
@@ -59,6 +59,21 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+<SCRIPT>
+function ShowRadioButtonDiv (IdBaseName, NumberOfButtons) {
+    for (x=1;x<=NumberOfButtons;x++) {
+        CheckThisButton = IdBaseName + x;
+        ThisDiv = IdBaseName + x +'Div';
+    if (document.getElementById(CheckThisButton).checked) {
+        document.getElementById(ThisDiv).style.display = "block";
+        }
+    else {
+        document.getElementById(ThisDiv).style.display = "none";
+        }
+    }
+    return false;
+}
+</SCRIPT>
 	</head>
 	<body>
 		
@@ -94,8 +109,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1 class="intro-lead">Left Sidebar Page</h1>
-						<p class="">100% Free HTML5 Template by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a></p>
+						<h1 class="intro-lead">Articles & Exhibition Reviews</h1>
+						<p class="">My personal writing</p>
 					</div>
 				</div>
 			</div>
@@ -107,31 +122,92 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="row">
 							<div class="col-md-3 animate-box">
-								<h3>Paragraph</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+								<h3>List of Works</h3>
+								<p></p>
 								<ul class="fh5co-list-check">
-									<li>Far far away</li>
-									<li>The word mountains</li>
-									<li>Far from the countries</li>
-									<li>Bookmarksgrove right</li>
+									<label>
+									<INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName1" ONCLICK="ShowRadioButtonDiv('GroupName', 4)" /> Lee Krasner: Emerging from Darkness<BR>
+										</label>
+									<label>
+									<INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName2" ONCLICK="ShowRadioButtonDiv('GroupName', 4)"/> Picasso & Paper: Exhibition Review<BR>
+									</label>
+									<label>
+									<INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName3" ONCLICK="ShowRadioButtonDiv('GroupName', 4)"/> Agnes Martin: Collapsing Space<BR>
+									</label>
+									<label>
+									<INPUT TYPE="radio" NAME="RadioGroupName" ID="GroupName4" ONCLICK="ShowRadioButtonDiv('GroupName', 4)" checked/> A Distinct Vision of Dublin: The Leeson Street Kiosk<BR>
+									</label>
 								</ul>
 							</div>
-							<div class="col-md-9">
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-							</div>
+							<DIV ID="GroupName1Div" STYLE="display:none;" class="col-md-9">
+								<p class="animate-box">	
+								<h2>Lee Krasner: Emerging from Darkness</h2>
+								<p>Lee Krasner was one of the most talented, influential artists working during the Twentieth Century. She is known to many as Mrs Jackson Pollock, due to her marriage to Abstract Expressionist Jackson Pollock, which has consistently overshadowed her artistic achievements. Krasner’s legacy is not her work, her being a feminist role model or her incredible self-belief as an artist, rather her marriage to Pollock. Let us remember Krasner was painting before Pollock, with Pollock and after Pollock.</p>
+								<p>This article will not argue Krasner is as talented as her husband and other Abstract Expressionists. It will not justify Krasner as worthy of writing about, when one could simply replace these words about Krasner with her male contemporaries. Rather, it will look at Krasner as an equal of Pollock’s, recognising her artistic abilities, by focusing on her ‘night journeys’ series, painted in the aftermath of Pollock’s death.</p> 
+								<p>Krasner was born in New York in 1908, daughter of Russian, Yiddish speaking Jews who had fled their shtetl outside Odessa. From a young age she embraced the American way, even ‘Americanising’ her name from Lena Krassner, to Lenore Krassner to finally “Lee Krasner.” Krasner married Jackson Pollock in 1945, and moved from New York to the Springs, Long Island. Both practicing artists, Pollock worked in the large barn house next to the house, while Krasner worked in the couple’s bedroom, only able to afford to heat one room of the house.</p>
+								<p>While Pollock was building his legacy, later being known as the central figure of Abstract Expressionism, recognised all over the world for his vast drip paintings, Krasner was producing her Little Images, made on a tabletop in her bedroom. She produced these works by applying repetitive strokes of thick paint, squeezed straight from the tube. Krasner is frequently dismissed as a female artist for producing these small scale, decorative works along with her well known collage work and decorative arts pieces which she is best known for, while her husband produced his large scale, internationally acclaimed paintings. The reality of the situation is that Pollock had taken over the barn as his studio and this space enabled him to produce large scale works, giving him a space which belonged entirely to him. Meanwhile Krasner’s makeshift studio in the couple’s bedroom restricted the size of works she produced and meant she did not have the freedom to produce art whenever she felt inspired to do so.<p>
+								<p>In 1956 Jackson Pollock was in a one car auto accident, where he was drink driving and overturned his convertible. He killed himself and an acquaintance, and seriously injured his mistress, Ruth Kligman. Two weeks after Pollock’s funeral, Krasner took over Pollock’s studio. Krasner always considered herself a practical person, she felt it was the obvious next step to abandon the tiny bedroom for the spacious barn which had the best natural lighting.</p>
+								<p>Krasner began producing a series of paintings made at night during bouts of insomnia and which her friend, the poet Richard Howard, called her ‘Night Journeys’. Rather than laying her canvas on the ground of the studio as Pollock had, Krasner tacked her canvases to the wall of the studio. Krasner abandoned colour when producing these works, which had always been central to her practice. She felt, working at night, in the absence of natural lighting it was necessary. These works are filled with emotion, they are raw, pure and true to themselves.</p>
+								<p>These paintings were the largest works Krasner had produced yet in her career. She gave them dramatic titles such as On the Solar Plexus, Polar Stampede and Assault. When viewing these canvases, the work of J.M.W. Turner and other Romantic artists springs to mind, with their shared notion of nature being greater than man, or woman. Krasner’s works function as abstract landscapes which the viewer becomes entirely consumed by. Krasner’s canvases can be described as ‘all over images’, there is no central focus to the canvas, the edges are as important as the centre, which challenges the tradition of painting, where a central focus exists. These works challenged Krasner in ways never demanded before. They involved her entire body, leaping from the floor with a long-handed brush in order to reach all areas of the canvas. One can only imagine the liberation of surging across the canvas in a time of such grief.</p>
+								<p>Krasner worked hard to protect Pollock’s legacy after his death, securing his works to major museum collections and organising exhibitions of his work. In the meantime, she fought for a retrospective of her own work at the Museum of Modern Art in New York. A retrospective of her work took place in 1965 at the Whitechapel Gallery in London, and at the Whitney in New York in 1975 and then finally, a retrospective of her work was secured at MOMA in 1984. Tragically, Krasner had passed away several months beforehand.</p>
+								<p>In a time of great uncertainty for everyone, as we all face challenges across the globe, let us celebrate these paintings which came as a result of insomnia, grief and mourning. Let us celebrate Lee Krasner and her incredible skills as an artist. We too can emerge from darkness by sharing in the catharsis that these works brought Krasner.</p>
+								</p>
+							</DIV>
+							<DIV ID="GroupName2Div" STYLE="display:none;" class="col-md-9">
+								<p class="animate-box">
+								<h2>Picasso and Paper: Exhibition Review</h2>
+								<p>Is it still possible to show Pablo Picasso through a fresh lens? Can an artist be explored in relation to paper? A material which is central to all artistic production, can it provide new insights into Picasso’s work? </p>
+								<p>Picasso and Paper explores the longstanding relationship between Picasso and his primary material Paper. In order to understand Picasso’s love of paper it is essential to go back to the start of his career. Picasso dedicated his life to producing art, desperate to be creative, he would use anything he could get his hands on. His initiative and experimentation as an artist was unparalleled during the first half of the Twentieth Century.</p>
+								<p>Picasso and Paper celebrates Picasso’s innovation, by exploring his various artistic styles throughout his career. The exhibition also celebrates Picasso’s knowledge and consistent reflection of the history of art. This exhibition references Picasso’s study of Eugéne Delacroix’s Femmes d’Alger dans leur appartement, 1934 and Edouard Manet’s Le Déjeuner sur l’herbe, 1963.</p>
+								<p>Exploring Picasso’s work through the medium of paper is a refreshing new angle and interesting take. It also gives the Royal Academy an opportunity to exhibit many Picasso doodles, letters, paper cut-outs which would not usually be exhibited.</p>
+								<p>Picasso and Paper has quite a strong biographical focus, typical for exhibitions centred around the work of Picasso. With many artists it is possible for their private life to remain private, but this is not possible with Picasso. His professional career as an artist and personal life are intertwined. Picasso’s work is deeply personal, as he consistently brings his personal life to light in his work, with his muses featuring in many of his works. </p>
+								<p>In 1900 Picasso travelled to Paris for the first time, where he was exposed to a range of influential artists including Paul Gauguin and Vincent van Gogh. In 1901 Picasso’s close friend Carles Casagemas committed suicide which led to the development of his Blue Period. Blue expressed the melancholy of his subjects, the poverty and loneliness of people struggling to survive on the margins of society. La Vie is seen as a high point of Picasso’s Blue Period through his use of colour, enigmatic symbolic allegory and overall sense of isolation. </p>
+								<p>Paper had a central role in the development of Cubism, a revolutionary method of constructing pictorial space. Picasso’s exploration of collage marked a turning point in the history of art. Violin is an example of an early papiers collés, his inventiveness is evident through his experimentation with materials, incorporating paper cut-outs, decorative wallpaper and newspaper.</p>
+								<p>Picasso’s experimentation with collage continued. Femmes á leur toilette shows Picasso’s innovation with paper as a medium. He constructed this collage using a large stockpile of decorative papers found in wallpaper shops. Picasso depicts the three central women in his life. On the left Olga Khokhlova, Picasso’s wife is represented. In the centre Dora Maar is depicted, whom Picasso was in an intimate relationship with. On the right Marie-Thérése Walter is shown holding a portrait of the artist. Picasso took up a secret relationship with Marie-Thérése Walter in January 1927 and the couple shared a daughter, Maya. The three women appear distressed in this work.</p>
+								<p>Picasso’s Seated Woman is a portrait of Dora Maar, who Picasso was intimately involved with since 1935. Maar played an important role in documenting Picasso’s Guernica. This painting was a commission for the Republic’s pavilion at the Paris World’s Fair of 1937. The subject of the work was the aerial bombing of the Basque city of Guernica on 26 April 1937, when hundreds of innocent civilians perished. Maar photographed the painting through its various stages of development. Picasso painted many portraits of Maar, most famously The Weeping Woman, where Maar is represented as a tortured, anguished woman. Maar was an artist in her own right, and had an great impact on Picasso’s work during their relationship.</p>
+								<p>Picasso was one of the most innovative artists of the Twentieth Century, Picasso had the deepest admiration for the ‘great masters’. From 1954 to 1961 he studied the well-known masterpieces, Eugéne Delacroix’s Femmes d’Alger dans leur appartement, 1934 and Edouard Manet’s Le Déjeuner sur l’herbe, 1963. Picasso did not just copy these works, rather he took inspiration from them, deconstructing their symbolism and reconstructing through a wide range of techniques.</p>
+								<p> ‘When I see Manet’s Le Déjeuner sur l’herbe, I think there will be trouble later on’. Picasso scribbled these words around 1930, but it would be almost thirty years before he took up the challenge of Manet’s deliberately provocative subject. From August 1959 to July 1962 he produced no less than 27 paintings, some 150 drawings, watercolours, linocuts and cardboard figures works in response to this work.</p>
+								<p>At the age of ninety, Picasso confronted his own mortality by portraying himself in Self-portrait. This starkly honest face, with its terrified eyes and zippered mouth was produced less than a year before the artist’s death.</p>
+								<p>Picasso and Paper provides a good overview of Picasso’s personal and artistic life, making in a good introduction to the work of Picasso. By exploring the artist’s relationship with paper, the Royal Academy were able to exhibit a vast amount of Picasso’s work and explore his work through a unique lens. The exhibition is also interesting for Picasso lovers due to the sheer amount of works exhibited which would not usually be exhibited in museums. Due to COVID-19, Picasso and Paper ended early, although a virtual tour is available from the Royal Academy’s website. Check out the Royal Academy’s virtual tour of Picasso and paper here. </p>
+								</p>
+										</DIV>
+							<DIV ID="GroupName3Div" STYLE="display:none;" class="col-md-9">
+								<p class="animate-box">
+								<h2>Agnes Martin - Collasping Space</h2>
+								<p>“The function of art work is the stimulation of sensibilities, the renewal of memories of moments of perfection.” – Agnes Martin</p>
+								<p>Agnes Martin was a pioneering Abstract artist, known for her distinctly large square canvases. Born in 1912 in Macklin, Saskatchewan, Canada, she spent most her life in the US, becoming a US Citizen in 1940. Martin moved to New York city in 1957, where she would remain until 1967. During this period, she produced the grid paintings that made her reputation and led to her inclusion in important Abstract Expressionist exhibitions.</p> 
+								<p>I first encountered Martin’s work in the Peggy Guggenheim Collection, Venice. I came across Martin’s Rose, 1966. Typical of her grid paintings produced while living in New York, the canvas is vast, measuring 182.9 x 182.9 cm, I found the painting striking, particularly its balance of simplicity and complexity. Martin paints the canvas a delicate cream tone, with a hint of rose, on top of which she draws lines in pencil from one side of the canvas to another which creates a grid. It communicated so much with such minimal detail. I could have spent hours contemplating the expanding horizons of Rose.</p>
+								<p>Martin was interviewed by Mark Stevens in 1989, who asked how long she would like a viewer to spend looking at one of her paintings. “Well, I’d like them to give it a minute,” she replied. We may think Martin asking for one minute was a modest request although in today’s society, devoting sixty seconds entirely to viewing a painting is a long time. Martin’s work is all about the details though, it requires one minute to become fully engulfed by the canvas, to notice the delicacy of the colour, to follow the pencilled lines from one end of the canvas to the other and to truly appreciate her work.</p> 
+								<p>There is a delicacy in Martin’s work. On first impression her work appears extremely feminine. Her colour palette is narrow, using soft neutral tones. When applying acrylic paint, she adds water for a thinned wash which leaves a faint but distinct trace of brushstrokes on the surface of the canvas. She draws horizontal lines, which vary only in the intervals between them from painting to painting. These lines are both firm and fluid, they guide the viewer through the work. Martin’s work is cautious, calculations are made at length before she approaches the canvas. Martin’s paintings require a great amount of attention, as only upon closer examination of her work does one begin to see imperfections. This careful control of attention and purity are what make her work appear extremely feminine.</p> 
+								<p>Martin is best known for her grid paintings from her time living in New York from 1957 until 1967. During this period, Martin established herself as an Abstract Expressionist and experimented with grid paintings. It was not until arriving in New York that she produced anything she actually liked, destroying most of her works prior to 1957. But why did Martin depict grids? What did these grids represent and what was her inspiration?</p>
+								<p>In 1979 Rosalind Krauss published ‘Grids’ in the journal October, where she analysed the importance of the grid structure and its relationship with the Modern movement. The grid appeared first in France, Russia and Holland at the beginning of the Twentieth Century, even when the art capital shifted from Paris to New York during the mid-Twentieth Century, the grid remained emblematic of the modern period.</p> 
+								<p>Krauss states the grids connection to modernity is due to its spatial and temporal sense. This can be applied to the works of Martin; in the spatial sense, Martin’s grids are flattened, stripped back and ordered. There is a geometric nature to her work. When Martin produces her grids, the pencilled lines which form grids do not terminate at the edge of the canvas, rather they just fade off, and had the canvas been larger they would still run to the edge. This evokes the infinite plane and the scale engulfs the viewer into the work. Martin’s grids represent modernity through the temporal nature of being a grid, a motif of the modern movement. As stated by Krauss, the grid is pervasive in art of the Twentieth Century. Featuring in many of the modern movements, from de Stijl to Cubism to Dada, Martin incorporated the grid into Abstract expressionism.</p>  
+								<p>After moving to New York, after being approached by Betty Parsons, an early advocate of Abstract Expressionism, Martin became associated with Abstract Expressionism. Parsons had opened a gallery in 1946 on 15 East 57th Street, New York and represented many Abstract Expressionists such as Pollock, Rothko, Reinhardt, Still and Newman. Parsons’s support was crucial in Martin establishing herself in New York. Martin stayed with Parsons for a brief period after arriving in the city. Parsons also gave Martin her first New York show in 1958 and introduced her to many artists she would later live with.</p> 
+								<p>Like other Abstract expressionists, Martin stretched her own canvases. As Martin got older, she reduced the scale of these canvases in order to be able to move them on her own. Abstract Expressionism is characterised by large consuming canvases. This was a male-dominated movement even from a practical point of view, due to having to stretch one’s own canvas and being able to move them. Martin’s paintings, as with a live performance, must be seen in the flesh in order to truly appreciate them.</p> 
+								<p>Martin’s work has been associated with Minimalism as Martin reduces colour in favour of pure light. On first impression, Martin’s grids appear to be made up of perfect squares, free from error, although this is not the case. On closer inspection, the viewer can see where her pencil slipped slightly, trailed off and notice that when her pencil became blunt, she twisted her pencil to use the other side. Her grids are not divine structures, they are rendered with artistic and human imperfections. Each painting is unique and cannot be reproduced, this spontaneity and singularity ties Martin’s work to Abstract Expressionism, rather than Minimalism.</p>
+								<p>“My formats are square, but the grids are never absolutely square… [there is] a contradiction, a dissonance, though I didn’t set out to do it that way… [it] lightens the weight of the square, destroys its power.”- Agnes Martin</p>
+								<p>After leaving New York in 1967, Martin travelled the Pacific Northwest, in both the United States and Canada. This voyage interrupted her artistic career as she would make no paintings, by her account, for four and a half years. When Martin returned to painting in the early 1970s the grids, which were such a distinctive aspect of her earlier work gave way, with some initial hesitation. Her grid format transformed into broad stripes. Martin lived until she was 92, settled in Taos, New Mexico, where she spent much of her life.</p>
+								<p>Agnes Martin was a pioneering Abstract artist. Her work is interesting as in many aspects it is between categories and extremely difficult to label. It belongs to neither Abstract Expressionism nor Minimalism, it is neither masculine nor feminine, simple yet complex which is what makes it so unique. Briony Few wrote “It is striking that Martin does not draw a distinction between drawing and painting. On the contrary, she collapses it. The distinction instead is in her use of scale.”. When viewing her works, as the space collapses in front of our eyes, we are left with a sense of divine beauty.</p>
+								</p>
+										</DIV>
+							<DIV ID="GroupName4Div" STYLE="display:block;" class="col-md-9">
+								<p class="animate-box">
+								<h2>A distinct vision of Dublin: The Leeson Street Kiosk</h2>
+								<p>Dublin has always been known for its architecture, particularly as a Georgian city. One building which particularly captures the essence of Dublin is a small local kiosk which stands at the junction of Leeson Street and Adelaide Road. The kiosk was designed in 1929 by the architect Michael Moynihan, (b. 1874) and built for the Dublin Corporation in 1930 by the builder J. P. Price. The building was to house a water pressure station, ladies’ lavatory, kiosk and telephone booth.</p> 
+								<p>The kiosk was built in the Art Deco style, a newly established style of architecture which was an outcome of L’Exposition des Arts Décoratifs et Industriels Moderne, held in Paris in 1925. It was one of the first international exhibitions to be dominated by a new modern architecture. In the late 1920’s and early 1930’s the Art Deco style became noticeably popular in Dublin. After the war of Independence, Ireland was trying to break away from Britain, who it had always looked to for artistic inspiration. Ireland now had to look elsewhere, and Paris was the obvious choice, thus Art Deco emerged as a National style of the time.</p> 
+								<p>The Kiosk is symmetric in plan. Dolphin’s Barn bricks are used throughout the building to draw the viewers eyes towards certain details such as the bricks turned towards the circular window opening on its façade, creating an impactful doorway. The brickwork also gives the building classical elements. Below the cornice and unadorned frieze, the bricks are turned on their side which is reminiscent of an architrave adorned with metopes and triglyphs. By including these subtle, classical elements this references the past and Dublin’s traditionally classical refined style. Beneath the windows are herringbone panels of brickwork, adding character to the building. The Dublin coat of arms, shown on either side of the building, presents the building as distinctly of Dublin.</p> 
+								<p>The Kiosk was to be built to comply with British standards, and it is important to note that Ireland was not completely independent from Britain yet. The Art Deco style can be viewed as quite reserved and perhaps not that radical, hence it is the underlying political context which makes this architecture radical in Dublin rather than the style itself. It is evident that the Art Deco style was adopted by Irish architects as a break away from British architecture and used as a nationalist style of its time.</p>
+								<p>The Ordnance Survey maps published in 1893 (fig 1) show there was an existing waterworks building on site and the kiosk of 1929 was built to incorporate this. In 2003, as the building was no longer being used in its original function instead as a café, bricks were removed and windows were created on the side of the building, clearly absent in the earlier 1987 photographs. Previously three small windows existed with an area of herringbone design brickwork underneath each window (fig 3), although the herringbone design brickwork was later removed and replaced with glass (fig 4). The original windows reveal the exact location of the ladies’ lavatory within the building through their style.</p> 
+								<p>On the façade, a large circular window occupies a substantial proportion of the front elevation, on top of which the building is labelled ‘KIOSK’ in bronze lettering. Previously this circular window framed the doorway, which was changed in 2003. The back section of the building housed the water pressure Station, locating this in an area of the building with a private, more formal entrance, away from the rest of the building’s functions, (fig 7). It can only be speculated that the telephone box was located at the front with the kiosk as it would not make sense for this to be located with the water pressure station with a private entrance at the back of the building.</p>
+								<p>When you consider the Leeson Street kiosk in relation to its Dublin and historical context, it is a building which brilliantly characterises Dublin. As it stands at the junction of Leeson Street and Adelaide Road it represents a complex moment in Irish architectural history, as Dublin was seeking a new architectural style which could represent our Irish identity in a nationalist way. The Art Deco style played a major role representing the early free state. The kiosk served the people of the Leeson Street area, representing the local aspect of Dublin, as a meeting place for neighbours and fellow Dubliners, as well as commuters. Its function changed over time, currently serving as a café. The kiosk has a complex history similarly to the city of Dublin. One can only imagine the excitement when it was erected, standing on one of the major routes into the city, with its unique appearance and diverse function, stamped with the Dublin coat of arms, it is magnificently Dublin.</p>
+								</p>
+										</DIV>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
+<!--
 		<div id="fh5co-services">
 			<div class="container">
 				<div class="row">
@@ -160,7 +236,6 @@
 									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
 								</div>
 							</div>
-
 							<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 fh5co-service">
 								<div class="fh5co-icon to-animate"><i class="icon-speedometer"></i></div>
 								<div class="fh5co-desc">
@@ -189,9 +264,8 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
-
+--->
 	<footer id="fh5co-footer">
 		<div class="container">
 			<div class="row">
